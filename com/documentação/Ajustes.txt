@@ -1,0 +1,99 @@
+Dias 20/02 e 21/02
+------------------
+
+1-Correção 
+
+1.1- Os campos Select, Option não estão populando as informações .
+1.2- 
+
+-Ajustes em alguns bugs salvar proposta.
+-Organizar os número automoticamente das propostas e Budget. 
+-Aprovação do status das propostas
+
+Agenda
+-------
+CRUD-Agenda 
+-----------
+1.1-Módulo: Agenda  
+	Campo: Atividade 
+	Problema: Os campos Select, Option não estão populando as informações.
+	Solução: OK;
+1.2- Módulo: Agenda  
+	Campo: Nota 
+	Problema: Os campos text area não estão populando as informações
+	Solução: OK;
+1.3-Módulo: Agenda  
+	Campo: Atribuído a 
+	Problema: Os campos text area não estão populando as informações
+	Solução: OK;
+--------------------------------------------------------------------------------------------------------------
+	
+Contato- Pessoa
+----------------
+CRUD-Pessoa 
+-----------
+Exibir as informações PAGINA PESSOA - OK
+Gravar as informações PAGINA pessoa - OK 
+Apagar as informações PAgina pessoa - OK
+Editar as informações PAGINA pessoa - OK
+Não lista as informações da pagina editar pessoa- OK
+
+  
+1.1- Módulo: Contato- pessoa   
+	Campo: Editar  
+	Problema: Ao editar as informações não são abertas
+	Solução: ;
+	
+1.2- Módulo: Contato- pessoa   
+	Campo: Editar  
+	Problema: As informações não estão aparecendo
+	Solução: ;
+	
+------------------
+------------------
+Cursos 
+http://www.laravel.com.br/curso-de-laravel-completo-e-totalmente-gratis/
+https://github.com/Webschool-io/Curso-PHP-Laravel-Completo-E-Total
+https://www.heroku.com/home	
+-----------------------------------------------------------------------------------------------------------------------------------------------	
+22/02/2017
+----------
+
+Listar perdido
+--------------
+Select * from enfil_proposta Status where status like '%perdido%'
+Select * from enfil_proposta Status where status like '%em elaboracao%'
+Select * from enfil_proposta Status where status like '%Cancelado%'
+
+
+
+---------------------
+Cliente.
+
+CRUD-
+Criar-  OK 
+Gravar- OK 
+Editar- Ok 
+Delete- OK
+
+------
+Pessoa
+	//Array para carregar as informações dentro do editar
+		$opcoes_contato = array(
+			'Trabalho'   => 'Trabalho',
+			'Casa'  => 'Casa',
+			'Celular'  => 'Celular',
+			'E-mail'  => 'E-mail',
+			'Skype'  => 'Skype',
+			'Outros'  => 'Outros',
+		);
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+23/02/2017
+----------	
+Analise_proposta 
+--Buscar
+Select * from enfil_proposta where num_processo 
+
+
+
+

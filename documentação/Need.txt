@@ -1,0 +1,10 @@
+Proposta 
+---------------------
+1- Realizar a aprovação das propostas apenas dois usuários.
+2- Adicionar os status de acordo nas tabelas . 
+----------------------
+Analise 
+1- Editar: Botão cancelar nao funciona 
+2- Adicionar e Exibir: Salvar os Select de acordo as informações que vêem do banco. 
+3- Editar: Exbir as informações do Radio.
+-----------------------
